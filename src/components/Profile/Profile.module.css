@@ -1,0 +1,55 @@
+.container {
+  border: 1px solid black;
+  border-radius: 5px;
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  background-color: rgb(235, 235, 235);
+}
+
+.avatar {
+  width: 100px;
+  background-color: black;
+  border-radius: 50%;
+  margin-bottom: 12px;
+}
+
+.name {
+  color: black;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.info {
+  color: gray;
+  margin-bottom: 8px;
+}
+
+.list {
+  display: flex;
+  color: black;
+  width: 100%;
+  border-top: 2px solid rgb(105, 100, 100);
+  justify-content: center;
+  background-color: rgb(170, 167, 167);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc((100% - 15px) / 3);
+  padding: 5px 0;
+}
+
+.item:not(:last-child) {
+  border-right: 2px solid rgb(105, 100, 100);
+}
+
+.stats {
+  color: rgb(69, 66, 66);
+}
