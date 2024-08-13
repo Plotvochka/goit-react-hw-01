@@ -1,0 +1,10 @@
+.list {
+  display: flex;
+  gap: 20px;
+  max-width: 600px;
+  margin-bottom: 50px;
+}
+
+.item {
+  width: calc((100% - 20px) / 5);
+}
